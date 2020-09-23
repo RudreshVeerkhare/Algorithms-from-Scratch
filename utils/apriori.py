@@ -17,7 +17,7 @@ class Apriori:
         self.total_items = None
         self.final_itemset = None
         self.rules = defaultdict(list)
-        pass
+
 
 
     def fit(self, data: list):

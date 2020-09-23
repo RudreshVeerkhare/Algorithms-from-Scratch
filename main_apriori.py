@@ -39,7 +39,7 @@ def display(model: Apriori, display_item_support_values = True, display_rules = 
         print()
 
 if __name__ == "__main__":
-    model = Apriori(min_support = 0.2, min_confidence = 0.5)
+    model = Apriori(min_support = 0.22, min_confidence = 0.6)
     model.fit(data)
     display(model)
     
